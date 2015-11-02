@@ -1,0 +1,909 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59251B871BE345210068334D /* MainScanPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59251B861BE345210068334D /* MainScanPopViewController.m */; };
+		59251BBF1BE350450068334D /* MineSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59251BBE1BE350450068334D /* MineSettingViewController.m */; };
+		59251BC91BE3608E0068334D /* MineHeadViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59251BC71BE3608E0068334D /* MineHeadViewCell.m */; };
+		59251BCA1BE3608E0068334D /* MineHeadViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59251BC81BE3608E0068334D /* MineHeadViewCell.xib */; };
+		59544DD31BE1B0DD007898D5 /* AppStatrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59544DD21BE1B0DD007898D5 /* AppStatrViewController.m */; };
+		59544DDB1BE1C4D0007898D5 /* AppTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59544DDA1BE1C4D0007898D5 /* AppTabBarViewController.m */; };
+		59544DDF1BE1CAC2007898D5 /* AppTabBarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 59544DDE1BE1CAC2007898D5 /* AppTabBarModel.m */; };
+		59544DE21BE1CB67007898D5 /* ClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59544DE11BE1CB67007898D5 /* ClassifyViewController.m */; };
+		59544DE51BE1CB90007898D5 /* MovementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59544DE41BE1CB90007898D5 /* MovementViewController.m */; };
+		59544DE81BE1CBC9007898D5 /* ShoopingfColumnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59544DE71BE1CBC9007898D5 /* ShoopingfColumnViewController.m */; };
+		59544DEE1BE1CC4E007898D5 /* MineCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59544DED1BE1CC4E007898D5 /* MineCenterViewController.m */; };
+		59544E1E1BE1F391007898D5 /* UIImageView+CircleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 59544E1D1BE1F391007898D5 /* UIImageView+CircleImage.m */; };
+		59544E211BE1F3EB007898D5 /* UIImageView+RectangleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 59544E201BE1F3EB007898D5 /* UIImageView+RectangleImage.m */; };
+		59544E241BE1F4EA007898D5 /* MainPageHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59544E231BE1F4EA007898D5 /* MainPageHeaderView.m */; };
+		59544E2F1BE2017D007898D5 /* MainPageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59544E2E1BE2017D007898D5 /* MainPageScrollView.m */; };
+		5963853C1BE3050400CF10C5 /* MainPageScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5963853B1BE3050400CF10C5 /* MainPageScanViewController.m */; };
+		5963853D1BE3050400CF10C5 /* MainPageScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5963853B1BE3050400CF10C5 /* MainPageScanViewController.m */; };
+		5963853E1BE3050400CF10C5 /* MainPageScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5963853B1BE3050400CF10C5 /* MainPageScanViewController.m */; };
+		59F0E16C1BE1A465001B6AAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F0E16B1BE1A465001B6AAC /* main.m */; };
+		59F0E16F1BE1A465001B6AAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F0E16E1BE1A465001B6AAC /* AppDelegate.m */; };
+		59F0E1751BE1A465001B6AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F0E1731BE1A465001B6AAC /* Main.storyboard */; };
+		59F0E1771BE1A465001B6AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59F0E1761BE1A465001B6AAC /* Assets.xcassets */; };
+		59F0E17A1BE1A465001B6AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F0E1781BE1A465001B6AAC /* LaunchScreen.storyboard */; };
+		59F0E1851BE1A465001B6AAC /* NeptunusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F0E1841BE1A465001B6AAC /* NeptunusTests.m */; };
+		59F0E1901BE1A465001B6AAC /* NeptunusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F0E18F1BE1A465001B6AAC /* NeptunusUITests.m */; };
+		59F0E1C11BE1ABA7001B6AAC /* MainPagefViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F0E1C01BE1ABA7001B6AAC /* MainPagefViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59F0E1811BE1A465001B6AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59F0E15F1BE1A464001B6AAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59F0E1661BE1A464001B6AAC;
+			remoteInfo = Neptunus;
+		};
+		59F0E18C1BE1A465001B6AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59F0E15F1BE1A464001B6AAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59F0E1661BE1A464001B6AAC;
+			remoteInfo = Neptunus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59251B851BE345210068334D /* MainScanPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainScanPopViewController.h; path = MainPage/Controller/MainScanPopViewController.h; sourceTree = "<group>"; };
+		59251B861BE345210068334D /* MainScanPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainScanPopViewController.m; path = MainPage/Controller/MainScanPopViewController.m; sourceTree = "<group>"; };
+		59251B881BE34D450068334D /* RequestHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestHead.h; sourceTree = "<group>"; };
+		59251B891BE34D910068334D /* ResponseHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseHead.h; sourceTree = "<group>"; };
+		59251BBD1BE350450068334D /* MineSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MineSettingViewController.h; path = MainPage/Controller/MineSettingViewController.h; sourceTree = "<group>"; };
+		59251BBE1BE350450068334D /* MineSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MineSettingViewController.m; path = MainPage/Controller/MineSettingViewController.m; sourceTree = "<group>"; };
+		59251BC61BE3608E0068334D /* MineHeadViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MineHeadViewCell.h; path = MineCenter/Cell/MineHeadViewCell.h; sourceTree = "<group>"; };
+		59251BC71BE3608E0068334D /* MineHeadViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MineHeadViewCell.m; path = MineCenter/Cell/MineHeadViewCell.m; sourceTree = "<group>"; };
+		59251BC81BE3608E0068334D /* MineHeadViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MineHeadViewCell.xib; path = MineCenter/Cell/MineHeadViewCell.xib; sourceTree = "<group>"; };
+		59544DCF1BE1AED9007898D5 /* Neptunus.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Neptunus.pch; sourceTree = "<group>"; };
+		59544DD11BE1B0DD007898D5 /* AppStatrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppStatrViewController.h; path = UI/Controller/AppStatrViewController.h; sourceTree = "<group>"; };
+		59544DD21BE1B0DD007898D5 /* AppStatrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppStatrViewController.m; path = UI/Controller/AppStatrViewController.m; sourceTree = "<group>"; };
+		59544DD91BE1C4D0007898D5 /* AppTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppTabBarViewController.h; path = UI/Controller/AppTabBarViewController.h; sourceTree = "<group>"; };
+		59544DDA1BE1C4D0007898D5 /* AppTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppTabBarViewController.m; path = UI/Controller/AppTabBarViewController.m; sourceTree = "<group>"; };
+		59544DDD1BE1CAC2007898D5 /* AppTabBarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppTabBarModel.h; path = UI/Model/AppTabBarModel.h; sourceTree = "<group>"; };
+		59544DDE1BE1CAC2007898D5 /* AppTabBarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppTabBarModel.m; path = UI/Model/AppTabBarModel.m; sourceTree = "<group>"; };
+		59544DE01BE1CB67007898D5 /* ClassifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClassifyViewController.h; path = Classify/Controller/ClassifyViewController.h; sourceTree = "<group>"; };
+		59544DE11BE1CB67007898D5 /* ClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClassifyViewController.m; path = Classify/Controller/ClassifyViewController.m; sourceTree = "<group>"; };
+		59544DE31BE1CB90007898D5 /* MovementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovementViewController.h; path = Movement/Controller/MovementViewController.h; sourceTree = "<group>"; };
+		59544DE41BE1CB90007898D5 /* MovementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MovementViewController.m; path = Movement/Controller/MovementViewController.m; sourceTree = "<group>"; };
+		59544DE61BE1CBC9007898D5 /* ShoopingfColumnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShoopingfColumnViewController.h; path = ShoopingColumn/Controller/ShoopingfColumnViewController.h; sourceTree = "<group>"; };
+		59544DE71BE1CBC9007898D5 /* ShoopingfColumnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShoopingfColumnViewController.m; path = ShoopingColumn/Controller/ShoopingfColumnViewController.m; sourceTree = "<group>"; };
+		59544DEC1BE1CC4E007898D5 /* MineCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MineCenterViewController.h; path = MineCenter/Controller/MineCenterViewController.h; sourceTree = "<group>"; };
+		59544DED1BE1CC4E007898D5 /* MineCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MineCenterViewController.m; path = MineCenter/Controller/MineCenterViewController.m; sourceTree = "<group>"; };
+		59544DF71BE1EB66007898D5 /* AppHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppHeader.h; path = Commom/Includes/AppHeader.h; sourceTree = "<group>"; };
+		59544E1C1BE1F391007898D5 /* UIImageView+CircleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+CircleImage.h"; path = "UI/Views/UIImageView+CircleImage.h"; sourceTree = "<group>"; };
+		59544E1D1BE1F391007898D5 /* UIImageView+CircleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+CircleImage.m"; path = "UI/Views/UIImageView+CircleImage.m"; sourceTree = "<group>"; };
+		59544E1F1BE1F3EB007898D5 /* UIImageView+RectangleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+RectangleImage.h"; path = "UI/Views/UIImageView+RectangleImage.h"; sourceTree = "<group>"; };
+		59544E201BE1F3EB007898D5 /* UIImageView+RectangleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+RectangleImage.m"; path = "UI/Views/UIImageView+RectangleImage.m"; sourceTree = "<group>"; };
+		59544E221BE1F4EA007898D5 /* MainPageHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainPageHeaderView.h; path = MainPage/View/MainPageHeaderView.h; sourceTree = "<group>"; };
+		59544E231BE1F4EA007898D5 /* MainPageHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainPageHeaderView.m; path = MainPage/View/MainPageHeaderView.m; sourceTree = "<group>"; };
+		59544E2D1BE2017D007898D5 /* MainPageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainPageScrollView.h; path = MainPage/View/MainPageScrollView.h; sourceTree = "<group>"; };
+		59544E2E1BE2017D007898D5 /* MainPageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainPageScrollView.m; path = MainPage/View/MainPageScrollView.m; sourceTree = "<group>"; };
+		5963853A1BE3050400CF10C5 /* MainPageScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainPageScanViewController.h; path = MainPage/Controller/MainPageScanViewController.h; sourceTree = "<group>"; };
+		5963853B1BE3050400CF10C5 /* MainPageScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainPageScanViewController.m; path = MainPage/Controller/MainPageScanViewController.m; sourceTree = "<group>"; };
+		59F0E1671BE1A464001B6AAC /* Neptunus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neptunus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F0E16B1BE1A465001B6AAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59F0E16D1BE1A465001B6AAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59F0E16E1BE1A465001B6AAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59F0E1741BE1A465001B6AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59F0E1761BE1A465001B6AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59F0E1791BE1A465001B6AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59F0E17B1BE1A465001B6AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F0E1801BE1A465001B6AAC /* NeptunusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeptunusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F0E1841BE1A465001B6AAC /* NeptunusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeptunusTests.m; sourceTree = "<group>"; };
+		59F0E1861BE1A465001B6AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F0E18B1BE1A465001B6AAC /* NeptunusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeptunusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F0E18F1BE1A465001B6AAC /* NeptunusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeptunusUITests.m; sourceTree = "<group>"; };
+		59F0E1911BE1A465001B6AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F0E1BF1BE1ABA7001B6AAC /* MainPagefViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainPagefViewController.h; path = MainPage/Controller/MainPagefViewController.h; sourceTree = "<group>"; };
+		59F0E1C01BE1ABA7001B6AAC /* MainPagefViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainPagefViewController.m; path = MainPage/Controller/MainPagefViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59F0E1641BE1A464001B6AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F0E17D1BE1A465001B6AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F0E1881BE1A465001B6AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59251BC01BE360320068334D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				59251BC61BE3608E0068334D /* MineHeadViewCell.h */,
+				59251BC71BE3608E0068334D /* MineHeadViewCell.m */,
+				59251BC81BE3608E0068334D /* MineHeadViewCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		59544DD01BE1B0A3007898D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				59544DD11BE1B0DD007898D5 /* AppStatrViewController.h */,
+				59544DD21BE1B0DD007898D5 /* AppStatrViewController.m */,
+				59544DD91BE1C4D0007898D5 /* AppTabBarViewController.h */,
+				59544DDA1BE1C4D0007898D5 /* AppTabBarViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		59544DDC1BE1CA11007898D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				59544DDD1BE1CAC2007898D5 /* AppTabBarModel.h */,
+				59544DDE1BE1CAC2007898D5 /* AppTabBarModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		596385381BE3036D00CF10C5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		596385391BE3037C00CF10C5 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		59F0E15E1BE1A464001B6AAC = {
+			isa = PBXGroup;
+			children = (
+				59F0E1691BE1A465001B6AAC /* Neptunus */,
+				59F0E1831BE1A465001B6AAC /* NeptunusTests */,
+				59F0E18E1BE1A465001B6AAC /* NeptunusUITests */,
+				59F0E1681BE1A464001B6AAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59F0E1681BE1A464001B6AAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59F0E1671BE1A464001B6AAC /* Neptunus.app */,
+				59F0E1801BE1A465001B6AAC /* NeptunusTests.xctest */,
+				59F0E18B1BE1A465001B6AAC /* NeptunusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59F0E1691BE1A465001B6AAC /* Neptunus */ = {
+			isa = PBXGroup;
+			children = (
+				59F0E1A21BE1A8B6001B6AAC /* Common */,
+				59F0E19E1BE1A875001B6AAC /* UI */,
+				59F0E1AB1BE1A975001B6AAC /* MainPage */,
+				59F0E1AC1BE1A98C001B6AAC /* Classify */,
+				59F0E1AD1BE1A9F1001B6AAC /* Movement */,
+				59F0E1AE1BE1AA2E001B6AAC /* ShoopingColumn */,
+				59F0E1AF1BE1AA93001B6AAC /* MineCenter */,
+				59F0E16D1BE1A465001B6AAC /* AppDelegate.h */,
+				59F0E16E1BE1A465001B6AAC /* AppDelegate.m */,
+				59F0E1731BE1A465001B6AAC /* Main.storyboard */,
+				59F0E1761BE1A465001B6AAC /* Assets.xcassets */,
+				59F0E1781BE1A465001B6AAC /* LaunchScreen.storyboard */,
+				59F0E17B1BE1A465001B6AAC /* Info.plist */,
+				59F0E16A1BE1A465001B6AAC /* Supporting Files */,
+			);
+			path = Neptunus;
+			sourceTree = "<group>";
+		};
+		59F0E16A1BE1A465001B6AAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59F0E16B1BE1A465001B6AAC /* main.m */,
+				59544DCF1BE1AED9007898D5 /* Neptunus.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59F0E1831BE1A465001B6AAC /* NeptunusTests */ = {
+			isa = PBXGroup;
+			children = (
+				59F0E1841BE1A465001B6AAC /* NeptunusTests.m */,
+				59F0E1861BE1A465001B6AAC /* Info.plist */,
+			);
+			path = NeptunusTests;
+			sourceTree = "<group>";
+		};
+		59F0E18E1BE1A465001B6AAC /* NeptunusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59F0E18F1BE1A465001B6AAC /* NeptunusUITests.m */,
+				59F0E1911BE1A465001B6AAC /* Info.plist */,
+			);
+			path = NeptunusUITests;
+			sourceTree = "<group>";
+		};
+		59F0E19E1BE1A875001B6AAC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				59544DDC1BE1CA11007898D5 /* Model */,
+				59544DD01BE1B0A3007898D5 /* Controller */,
+				59F0E1A91BE1A93E001B6AAC /* Cells */,
+				59F0E1A81BE1A92E001B6AAC /* Views */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		59F0E1A21BE1A8B6001B6AAC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				59F0E1A71BE1A8EF001B6AAC /* Tools */,
+				59F0E1A61BE1A8E1001B6AAC /* SDKs */,
+				59F0E1A51BE1A8D4001B6AAC /* Includes */,
+				59F0E1A41BE1A8CA001B6AAC /* Catalogy */,
+				59F0E1A31BE1A8C2001B6AAC /* Model */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		59F0E1A31BE1A8C2001B6AAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		59F0E1A41BE1A8CA001B6AAC /* Catalogy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Catalogy;
+			sourceTree = "<group>";
+		};
+		59F0E1A51BE1A8D4001B6AAC /* Includes */ = {
+			isa = PBXGroup;
+			children = (
+				59544DF71BE1EB66007898D5 /* AppHeader.h */,
+				59251B881BE34D450068334D /* RequestHead.h */,
+				59251B891BE34D910068334D /* ResponseHead.h */,
+			);
+			name = Includes;
+			sourceTree = "<group>";
+		};
+		59F0E1A61BE1A8E1001B6AAC /* SDKs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SDKs;
+			sourceTree = "<group>";
+		};
+		59F0E1A71BE1A8EF001B6AAC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				596385391BE3037C00CF10C5 /* Database */,
+				596385381BE3036D00CF10C5 /* Networking */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		59F0E1A81BE1A92E001B6AAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				59544E1C1BE1F391007898D5 /* UIImageView+CircleImage.h */,
+				59544E1D1BE1F391007898D5 /* UIImageView+CircleImage.m */,
+				59544E1F1BE1F3EB007898D5 /* UIImageView+RectangleImage.h */,
+				59544E201BE1F3EB007898D5 /* UIImageView+RectangleImage.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		59F0E1A91BE1A93E001B6AAC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		59F0E1AB1BE1A975001B6AAC /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				59F0E1B21BE1AAF5001B6AAC /* Controller */,
+				59F0E1B01BE1AAE6001B6AAC /* Model */,
+			);
+			name = MainPage;
+			sourceTree = "<group>";
+		};
+		59F0E1AC1BE1A98C001B6AAC /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				59F0E1B51BE1AB1C001B6AAC /* Controller */,
+				59F0E1B41BE1AB15001B6AAC /* Model */,
+				59F0E1B31BE1AB08001B6AAC /* View */,
+			);
+			name = Classify;
+			sourceTree = "<group>";
+		};
+		59F0E1AD1BE1A9F1001B6AAC /* Movement */ = {
+			isa = PBXGroup;
+			children = (
+				59F0E1B81BE1AB35001B6AAC /* Controller */,
+				59F0E1B71BE1AB30001B6AAC /* View */,
+				59F0E1B61BE1AB29001B6AAC /* Model */,
+			);
+			name = Movement;
+			sourceTree = "<group>";
+		};
+		59F0E1AE1BE1AA2E001B6AAC /* ShoopingColumn */ = {
+			isa = PBXGroup;
+			children = (
+				59F0E1BB1BE1AB4C001B6AAC /* Controller */,
+				59F0E1BA1BE1AB47001B6AAC /* View */,
+				59F0E1B91BE1AB40001B6AAC /* Model */,
+			);
+			name = ShoopingColumn;
+			sourceTree = "<group>";
+		};
+		59F0E1AF1BE1AA93001B6AAC /* MineCenter */ = {
+			isa = PBXGroup;
+			children = (
+				59251BC01BE360320068334D /* Cell */,
+				59F0E1BE1BE1AB60001B6AAC /* Controller */,
+				59F0E1BD1BE1AB5B001B6AAC /* View */,
+				59F0E1BC1BE1AB54001B6AAC /* Model */,
+			);
+			name = MineCenter;
+			sourceTree = "<group>";
+		};
+		59F0E1B01BE1AAE6001B6AAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		59F0E1B11BE1AAED001B6AAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59544E221BE1F4EA007898D5 /* MainPageHeaderView.h */,
+				59544E231BE1F4EA007898D5 /* MainPageHeaderView.m */,
+				59544E2D1BE2017D007898D5 /* MainPageScrollView.h */,
+				59544E2E1BE2017D007898D5 /* MainPageScrollView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		59F0E1B21BE1AAF5001B6AAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				59F0E1BF1BE1ABA7001B6AAC /* MainPagefViewController.h */,
+				59F0E1C01BE1ABA7001B6AAC /* MainPagefViewController.m */,
+				5963853A1BE3050400CF10C5 /* MainPageScanViewController.h */,
+				5963853B1BE3050400CF10C5 /* MainPageScanViewController.m */,
+				59251B851BE345210068334D /* MainScanPopViewController.h */,
+				59251B861BE345210068334D /* MainScanPopViewController.m */,
+				59F0E1B11BE1AAED001B6AAC /* View */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		59F0E1B31BE1AB08001B6AAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		59F0E1B41BE1AB15001B6AAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		59F0E1B51BE1AB1C001B6AAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				59544DE01BE1CB67007898D5 /* ClassifyViewController.h */,
+				59544DE11BE1CB67007898D5 /* ClassifyViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		59F0E1B61BE1AB29001B6AAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		59F0E1B71BE1AB30001B6AAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		59F0E1B81BE1AB35001B6AAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				59544DE31BE1CB90007898D5 /* MovementViewController.h */,
+				59544DE41BE1CB90007898D5 /* MovementViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		59F0E1B91BE1AB40001B6AAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		59F0E1BA1BE1AB47001B6AAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		59F0E1BB1BE1AB4C001B6AAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				59544DE61BE1CBC9007898D5 /* ShoopingfColumnViewController.h */,
+				59544DE71BE1CBC9007898D5 /* ShoopingfColumnViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		59F0E1BC1BE1AB54001B6AAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		59F0E1BD1BE1AB5B001B6AAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		59F0E1BE1BE1AB60001B6AAC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				59544DEC1BE1CC4E007898D5 /* MineCenterViewController.h */,
+				59544DED1BE1CC4E007898D5 /* MineCenterViewController.m */,
+				59251BBD1BE350450068334D /* MineSettingViewController.h */,
+				59251BBE1BE350450068334D /* MineSettingViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59F0E1661BE1A464001B6AAC /* Neptunus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F0E1941BE1A465001B6AAC /* Build configuration list for PBXNativeTarget "Neptunus" */;
+			buildPhases = (
+				59F0E1631BE1A464001B6AAC /* Sources */,
+				59F0E1641BE1A464001B6AAC /* Frameworks */,
+				59F0E1651BE1A464001B6AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neptunus;
+			productName = Neptunus;
+			productReference = 59F0E1671BE1A464001B6AAC /* Neptunus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59F0E17F1BE1A465001B6AAC /* NeptunusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F0E1971BE1A465001B6AAC /* Build configuration list for PBXNativeTarget "NeptunusTests" */;
+			buildPhases = (
+				59F0E17C1BE1A465001B6AAC /* Sources */,
+				59F0E17D1BE1A465001B6AAC /* Frameworks */,
+				59F0E17E1BE1A465001B6AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59F0E1821BE1A465001B6AAC /* PBXTargetDependency */,
+			);
+			name = NeptunusTests;
+			productName = NeptunusTests;
+			productReference = 59F0E1801BE1A465001B6AAC /* NeptunusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59F0E18A1BE1A465001B6AAC /* NeptunusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F0E19A1BE1A465001B6AAC /* Build configuration list for PBXNativeTarget "NeptunusUITests" */;
+			buildPhases = (
+				59F0E1871BE1A465001B6AAC /* Sources */,
+				59F0E1881BE1A465001B6AAC /* Frameworks */,
+				59F0E1891BE1A465001B6AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59F0E18D1BE1A465001B6AAC /* PBXTargetDependency */,
+			);
+			name = NeptunusUITests;
+			productName = NeptunusUITests;
+			productReference = 59F0E18B1BE1A465001B6AAC /* NeptunusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59F0E15F1BE1A464001B6AAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = niuhenglei;
+				TargetAttributes = {
+					59F0E1661BE1A464001B6AAC = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 4W939CZN53;
+					};
+					59F0E17F1BE1A465001B6AAC = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 4W939CZN53;
+						TestTargetID = 59F0E1661BE1A464001B6AAC;
+					};
+					59F0E18A1BE1A465001B6AAC = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 4W939CZN53;
+						TestTargetID = 59F0E1661BE1A464001B6AAC;
+					};
+				};
+			};
+			buildConfigurationList = 59F0E1621BE1A464001B6AAC /* Build configuration list for PBXProject "Neptunus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59F0E15E1BE1A464001B6AAC;
+			productRefGroup = 59F0E1681BE1A464001B6AAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59F0E1661BE1A464001B6AAC /* Neptunus */,
+				59F0E17F1BE1A465001B6AAC /* NeptunusTests */,
+				59F0E18A1BE1A465001B6AAC /* NeptunusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59F0E1651BE1A464001B6AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F0E17A1BE1A465001B6AAC /* LaunchScreen.storyboard in Resources */,
+				59F0E1771BE1A465001B6AAC /* Assets.xcassets in Resources */,
+				59F0E1751BE1A465001B6AAC /* Main.storyboard in Resources */,
+				59251BCA1BE3608E0068334D /* MineHeadViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F0E17E1BE1A465001B6AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F0E1891BE1A465001B6AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59F0E1631BE1A464001B6AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59544DE51BE1CB90007898D5 /* MovementViewController.m in Sources */,
+				59544DE21BE1CB67007898D5 /* ClassifyViewController.m in Sources */,
+				59544DDF1BE1CAC2007898D5 /* AppTabBarModel.m in Sources */,
+				59544DDB1BE1C4D0007898D5 /* AppTabBarViewController.m in Sources */,
+				59544E1E1BE1F391007898D5 /* UIImageView+CircleImage.m in Sources */,
+				59544DE81BE1CBC9007898D5 /* ShoopingfColumnViewController.m in Sources */,
+				59544DEE1BE1CC4E007898D5 /* MineCenterViewController.m in Sources */,
+				5963853C1BE3050400CF10C5 /* MainPageScanViewController.m in Sources */,
+				59544DD31BE1B0DD007898D5 /* AppStatrViewController.m in Sources */,
+				59251BC91BE3608E0068334D /* MineHeadViewCell.m in Sources */,
+				59544E211BE1F3EB007898D5 /* UIImageView+RectangleImage.m in Sources */,
+				59544E241BE1F4EA007898D5 /* MainPageHeaderView.m in Sources */,
+				59F0E16F1BE1A465001B6AAC /* AppDelegate.m in Sources */,
+				59544E2F1BE2017D007898D5 /* MainPageScrollView.m in Sources */,
+				59251BBF1BE350450068334D /* MineSettingViewController.m in Sources */,
+				59F0E16C1BE1A465001B6AAC /* main.m in Sources */,
+				59251B871BE345210068334D /* MainScanPopViewController.m in Sources */,
+				59F0E1C11BE1ABA7001B6AAC /* MainPagefViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F0E17C1BE1A465001B6AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F0E1851BE1A465001B6AAC /* NeptunusTests.m in Sources */,
+				5963853D1BE3050400CF10C5 /* MainPageScanViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F0E1871BE1A465001B6AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F0E1901BE1A465001B6AAC /* NeptunusUITests.m in Sources */,
+				5963853E1BE3050400CF10C5 /* MainPageScanViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59F0E1821BE1A465001B6AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59F0E1661BE1A464001B6AAC /* Neptunus */;
+			targetProxy = 59F0E1811BE1A465001B6AAC /* PBXContainerItemProxy */;
+		};
+		59F0E18D1BE1A465001B6AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59F0E1661BE1A464001B6AAC /* Neptunus */;
+			targetProxy = 59F0E18C1BE1A465001B6AAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59F0E1731BE1A465001B6AAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59F0E1741BE1A465001B6AAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59F0E1781BE1A465001B6AAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59F0E1791BE1A465001B6AAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59F0E1921BE1A465001B6AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59F0E1931BE1A465001B6AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59F0E1951BE1A465001B6AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = Neptunus/Neptunus.pch;
+				INFOPLIST_FILE = Neptunus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neptunus.Neptunus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		59F0E1961BE1A465001B6AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = Neptunus/Neptunus.pch;
+				INFOPLIST_FILE = Neptunus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neptunus.Neptunus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		59F0E1981BE1A465001B6AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NeptunusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neptunus.NeptunusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neptunus.app/Neptunus";
+			};
+			name = Debug;
+		};
+		59F0E1991BE1A465001B6AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NeptunusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neptunus.NeptunusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neptunus.app/Neptunus";
+			};
+			name = Release;
+		};
+		59F0E19B1BE1A465001B6AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NeptunusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neptunus.NeptunusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Neptunus;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		59F0E19C1BE1A465001B6AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NeptunusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neptunus.NeptunusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Neptunus;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59F0E1621BE1A464001B6AAC /* Build configuration list for PBXProject "Neptunus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0E1921BE1A465001B6AAC /* Debug */,
+				59F0E1931BE1A465001B6AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F0E1941BE1A465001B6AAC /* Build configuration list for PBXNativeTarget "Neptunus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0E1951BE1A465001B6AAC /* Debug */,
+				59F0E1961BE1A465001B6AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F0E1971BE1A465001B6AAC /* Build configuration list for PBXNativeTarget "NeptunusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0E1981BE1A465001B6AAC /* Debug */,
+				59F0E1991BE1A465001B6AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F0E19A1BE1A465001B6AAC /* Build configuration list for PBXNativeTarget "NeptunusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0E19B1BE1A465001B6AAC /* Debug */,
+				59F0E19C1BE1A465001B6AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59F0E15F1BE1A464001B6AAC /* Project object */;
+}
